@@ -14,6 +14,11 @@ export default () => {
           <a>Request that may fail</a>
         </Link>
       </li>
+      <li>
+        <Link href="/custom-hook" passHref>
+          <a>Custom Request that may fail</a>
+        </Link>
+      </li>
     </ul>
   );
 };
