@@ -19,7 +19,7 @@ const RequestThatMayFail = () => {
           <>
             <pre>{JSON.stringify({ data, error }, null, 2)}</pre>
             Error:
-            <pre>{error.toString()}</pre>
+            <pre>{error && error.toString()}</pre>
           </>
         )}
       </div>
